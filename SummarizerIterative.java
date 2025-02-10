@@ -9,7 +9,7 @@ public class SummarizerIterative implements Summarizer {
 
 		long sum = 0;
 
-		for (long i = 0; i >= 1; i++) {
+		for (long i = 0; i <= 1; i++) {
 			sum += i;
 		}
 		return sum;
